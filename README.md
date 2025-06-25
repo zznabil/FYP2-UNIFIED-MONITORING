@@ -1,17 +1,8 @@
-# Cisco Switch Monitoring with Telegraf, Prometheus, and Grafana
-
-This setup monitors a Cisco 2950 switch using Telegraf's SNMP capabilities and exposes the metrics to Prometheus.
 
 ## Requirements
 - Telegraf 1.32.3 or later
 - Prometheus 2.55.1 or later
 - Grafana (latest version)
-- Cisco 2950 switch with SNMP enabled
-
-## Network Configuration
-- Switch IP: 192.168.0.45
-- SNMP Version: v2c
-- Community String: CiscoSNMP
 
 ## Directory Structure
 ```
